@@ -1,0 +1,47 @@
+{
+   "order_uid": "anotherorder123",
+   "track_number": "ANOTHERTRACK",
+   "entry": "WBIL",
+   "delivery": {
+      "name": "Invalid User 123",
+      "phone": "+12345abcde",
+      "zip": "",
+      "city": "Broken City",
+      "address": "Error Street 1",
+      "region": "Some Region",
+      "email": "not-an-email"
+   },
+   "payment": {
+      "transaction": "anotherorder123",
+      "currency": "rub",
+      "provider": "testpay",
+      "amount": 100,
+      "payment_dt": 1637907727,
+      "bank": "beta",
+      "delivery_cost": 50,
+      "goods_total": 50,
+      "custom_fee": 0
+   },
+   "items": [
+      {
+         "chrt_id": 12345,
+         "track_number": "ANOTHERTRACK",
+         "price": 50,
+         "rid": "someotherrid",
+         "name": "Broken Item",
+         "sale": 0,
+         "size": "M",
+         "total_price": 50,
+         "nm_id": 54321,
+         "brand": "Bad Brand",
+         "status": 200
+      }
+   ],
+   "locale": "ru",
+   "customer_id": "invalid_customer",
+   "delivery_service": "slowpost",
+   "shardkey": "1",
+   "sm_id": 10,
+   "date_created": "2021-11-27T10:00:00Z",
+   "oof_shard": "1"
+}

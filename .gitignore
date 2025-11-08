@@ -1,0 +1,4 @@
+.env
+postgres-data/
+postgres-test-data/
+grafana-data/
